@@ -31,7 +31,8 @@ The `stats` function calculates all of the stats except Standard Deviation in a 
 
 
 The difference can be significant. 
-Here's are some perf timeings (using `perf.hrtime`) results of an array with 900 numbers (pulled from some function profiling) calculated using the various approaches  (on unladen i9700 with 64 gig RAM )
+Here's are some perf timeings (using `perf.hrtime`) results of an array with 900 numbers (pulled from some function profiling) calculated using the various approaches  (on unladen i9700 with 64 gig RAM )  
+
 __with 900 elements__  
 ```
 0 s, 0.858 ms - Calculated separately, w/o std dev
@@ -39,7 +40,7 @@ __with 900 elements__
 0 s, 0.229 ms - Calculated using stats(), w/o std dev
 0 s, 0.335 ms - Calculated using stats(), with std dev
 ```  
-__ith 90,000 elements__   
+__with 90,000 elements__   
 ```
 0 s, 23.389 ms - Calculated separately, w/o std dev
 0 s, 47.578 ms - Calculated separately, with std dev
