@@ -1,6 +1,9 @@
 # array-stats
 Basic stat functions for an array of number. 
-The collection includes:  
+The are fairly simplistic and basic.  
+I typically use them when doing quick and dirtly profiling (got tired of rewriting the same basic functions again and again)  
+  
+## The collection includes:  
 * Basic stat functions  
 * Two array transformations  
 * A stats function to calculate all more efficiently  
